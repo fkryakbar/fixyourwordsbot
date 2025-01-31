@@ -30,7 +30,7 @@ class TelegramCommand extends Command
         $this->info('Telegram API is running in the background...');
         while (true) {
             Telegram::replyUnredMessage();
-            sleep(1);
+            sleep(2);
         }
     }
 }
